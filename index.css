@@ -1,0 +1,87 @@
+html,body{
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  gap: 1rem;
+}
+
+.main{
+   
+    height: 28rem;
+    border-radius: 4%;
+}
+.img01{
+    width: 18rem;
+    height: 28rem;
+    border-radius: 6% 0% 0% 6%;
+}
+.main{
+    background-color: hsl(0, 0%, 100%);
+}
+h5{
+    text-transform: uppercase;
+    position: absolute;
+    top: 4%;
+    color: hsl(212, 21%, 14%);
+    font-family: Montserrat;
+    
+}
+h1{
+    position: absolute;
+    top: 15%;
+}
+
+.class1{
+    width: 18rem;
+}
+p{
+    position: absolute;
+    top: 39%;
+}
+.price{
+    position: absolute;
+    top: 68%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.price>h2{
+    color:hsl(158, 36%, 37%);
+}
+.cart{
+    position: absolute;
+    top: 85%;
+    left: 55%;
+}
+.cart{
+    padding: 0.8rem;
+    background-color: hsl(158, 36%, 37%);
+    color:white;
+    width: 14rem;
+    border: none;
+    border-color: none;
+    border-radius:5% ;
+
+
+}
+h4{
+    text-decoration: line-through;
+}
+p{
+    font-size: 14px;
+}
+span{
+    margin: 10px;
+}
